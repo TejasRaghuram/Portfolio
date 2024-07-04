@@ -1,8 +1,8 @@
 function Body() 
 {
     return (
-        <div>
-            This is a Body.
+        <div id="body">
+            <p>This is a Body.</p>
         </div>
     );
 }
