@@ -1,3 +1,5 @@
+import Portrait from './../images/Portrait.JPG';
+
 function Header() 
 {
     return (
