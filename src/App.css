@@ -4,12 +4,24 @@
   position: fixed;
   top: 0;
   left: 0;
-  background-color: black;
-  color: white;
 }
 
 #body {
   width: 50%;
   position: absolute;
   left: 50%;
+}
+
+@media (max-width: 768px) 
+{
+  #header {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+
+  #body {
+    width: 100%;
+    position: static;
+  }
 }
