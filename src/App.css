@@ -1,9 +1,40 @@
-#header {
-  width: 50%;
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+  font-family: 'Source Code Pro';
+}
+
+p {
+  font-weight: 600;
+  color: rgb(100, 100, 100);
+}
+
+a {
+  margin: 0;
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.relative {
+  width: 100%;
   height: 100%;
+  position: relative;
+}
+
+#header {
+  width: calc(50% - 100px);
+  height: calc(100% - 200px);
   position: fixed;
   top: 0;
   left: 0;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #body {
