@@ -37,6 +37,28 @@ a:hover {
   padding-bottom: 100px;
 }
 
+#portrait {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+#contact {
+  position: absolute;
+  bottom: 0;
+}
+
+#contact-header {
+  position: relative;
+  top: 10px;
+}
+
+#contact-body {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 18px;
+}
+
 #body {
   width: 50%;
   position: absolute;
