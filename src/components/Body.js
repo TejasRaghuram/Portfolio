@@ -2,7 +2,9 @@ function Body()
 {
     return (
         <div id="body">
-            <p>This is a Body.</p>
+            <h2>About</h2>
+            <h2>Projects</h2>
+            <h2>Skills</h2>
         </div>
     );
 }
