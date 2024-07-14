@@ -1,9 +1,9 @@
 function Skill(props) 
 {
     return (
-        <div>
-            <img src={props.image} alt=""/>
-            <p>{props.name}</p>
+        <div id="skill">
+            <img id="skill-image" src={props.image} alt=""/>
+            <p id="skill-title">{props.name}</p>
         </div>
     );
 }
