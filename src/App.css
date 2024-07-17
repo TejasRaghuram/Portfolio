@@ -100,25 +100,33 @@ a:hover {
 }
 
 #skill-image {
-  width: 90px;
-  height: 90px;
-  margin-left: 5px;
-  margin-top: 5px;
+  width: 80px;
+  height: 80px;
+  margin-left: 10px;
+  margin-top: 10px;
   object-fit: contain;
   filter: saturate(0);
   transition: 0.25s;
 }
 
 #skill:hover #skill-image {
-  width: 100px;
-  height: 100px;
-  margin: 0;
+  width: 90px;
+  height: 90px;
+  margin-left: 5px;
+  margin-top: 5px;
   filter: saturate(1);
 }
 
 #skill-title {
-  margin-top: -10px;
+  margin-top: -5px;
   text-align: center;
+}
+
+.small {
+  font-size: 14px;
+  line-height: 12px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 @media (max-width: 768px) 
