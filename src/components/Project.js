@@ -1,10 +1,12 @@
 function Project(props) 
 {
     return (
-        <div>
-            <img src={props.image} alt=""/>
+        <div onClick={() => {
+            window.location.href= props.link;
+        }} class="project">
+            <img id="project-image" src={props.image} alt=""/>
             <h3>{props.name}</h3>
-            <p>{props.description}</p>
+            <p id="project-text">{props.description}</p>
         </div>
     );
 }

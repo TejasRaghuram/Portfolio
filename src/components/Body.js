@@ -9,7 +9,7 @@ function Body()
             <h2>About</h2>
             <p>Hi! I’m an undergraduate student at Northeastern University with a deep fascination for computer science, especially software development. My interests span across various subfields, including competitive programming, quantum computing, and website design. As a full stack developer, I’ve gained experience in a wide range of languages and frameworks, allowing me to build and contribute to diverse projects. Outside of the world of programming, I enjoy cubing, playing cricket and football, and immersing myself in video games.</p>
             <h2>Projects</h2>
-            <Project name="Test" image={Portrait} description="test" />
+            <Project name="Test" image={Portrait} description="test" link="https://www.youtube.com"/>
             <h2>Skills</h2>
             <h3>Languages</h3>
             <div class="skill-box">

@@ -73,6 +73,21 @@ a:hover {
   padding-bottom: 50px;
 }
 
+.project:hover {
+  cursor: pointer;
+}
+
+#project-image {
+  width: 100%;
+  aspect-ratio: 1.8;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+#project-text {
+  margin-top: -10px;
+}
+
 .skill-box {
   display: flex;
   flex-wrap: wrap;
