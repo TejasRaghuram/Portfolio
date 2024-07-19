@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.4b9f5586.css",
+    "main.js": "/portfolio/static/js/main.574d3b6b.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/SBCREW.png": "/portfolio/static/media/SBCREW.c0ee952008163513fdb0.png",
+    "static/media/Game.png": "/portfolio/static/media/Game.9feae3c675c91a59e472.png",
+    "static/media/IPL.png": "/portfolio/static/media/IPL.efe08011db28cfdf21bb.png",
+    "static/media/TeChess.png": "/portfolio/static/media/TeChess.de571ef644f8453ac859.png",
+    "static/media/StuVis.png": "/portfolio/static/media/StuVis.7befd92681356ac90b89.png",
+    "static/media/Attendance.png": "/portfolio/static/media/Attendance.31448709e2bc35d73f47.png",
+    "static/media/Portrait.JPG": "/portfolio/static/media/Portrait.dcc2c882aa96eb889768.JPG",
+    "index.html": "/portfolio/index.html",
+    "main.4b9f5586.css.map": "/portfolio/static/css/main.4b9f5586.css.map",
+    "main.574d3b6b.js.map": "/portfolio/static/js/main.574d3b6b.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b9f5586.css",
+    "static/js/main.574d3b6b.js"
+  ]
+}
