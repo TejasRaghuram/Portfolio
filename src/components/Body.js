@@ -1,6 +1,11 @@
 import Project from "./Project";
 import Skill from "./Skill";
-import Portrait from './../images/Portrait.JPG';
+import StuVis from "./../images/StuVis.png";
+import IPL from "./../images/IPL.png";
+import TeChess from "./../images/TeChess.png";
+import SBCREW from "./../images/SBCREW.png";
+import Attendance from "./../images/Attendance.png";
+import Game from "./../images/Game.png";
 
 function Body() 
 {
@@ -9,7 +14,12 @@ function Body()
             <h2>About</h2>
             <p>Hi! I’m an undergraduate student at Northeastern University with a deep fascination for computer science, especially software development. My interests span across various subfields, including competitive programming, quantum computing, and website design. As a full stack developer, I’ve gained experience in a wide range of languages and frameworks, allowing me to build and contribute to diverse projects. Outside of the world of programming, I enjoy cubing, playing cricket and football, and immersing myself in video games.</p>
             <h2>Projects</h2>
-            <Project name="Test" image={Portrait} description="test" link="https://www.youtube.com"/>
+            <Project name="StuVis" image={StuVis} description="Student Data Visualization Web Application with AI Integration for the South Brunswick School District" link="https://github.com/TejasRaghuram/StuVis"/>
+            <Project name="IPL Fantasy" image={IPL} description="Web Application for Fantasy Cricket with the Indian Premier League" link="https://github.com/TejasRaghuram/IPL-Fantasy"/>
+            <Project name="TeChess" image={TeChess} description="A Chess Bot Implementation of Monte Carlo Tree Search" link="https://github.com/TejasRaghuram/TeChess"/>
+            <Project name="750 SBCREW" image={SBCREW} description="Landing Page Template for South Brunswick Robotics" link="https://github.com/TejasRaghuram/750SBCREW"/>
+            <Project name="Attendance" image={Attendance} description="Mobile Application Designed to Scan ID Cards and Track Attendance" link="https://github.com/TejasRaghuram/Attendance"/>
+            <Project name="Chaos In Space" image={Game} description="2D Platformer Video Game Designed and Developed During a Game Jam" link="https://tr06.itch.io/chaos-in-space"/>
             <h2>Skills</h2>
             <h3>Languages</h3>
             <div class="skill-box">
