@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4b9f5586.css",
-    "main.js": "/static/js/main.9f0a98ec.js",
+    "main.js": "/static/js/main.5d6e8bd9.js",
     "static/js/453.1407b060.chunk.js": "/static/js/453.1407b060.chunk.js",
     "static/media/SBCREW.png": "/static/media/SBCREW.c0ee952008163513fdb0.png",
     "static/media/Game.png": "/static/media/Game.9feae3c675c91a59e472.png",
@@ -12,11 +12,11 @@
     "static/media/Portrait.JPG": "/static/media/Portrait.dcc2c882aa96eb889768.JPG",
     "index.html": "/index.html",
     "main.4b9f5586.css.map": "/static/css/main.4b9f5586.css.map",
-    "main.9f0a98ec.js.map": "/static/js/main.9f0a98ec.js.map",
+    "main.5d6e8bd9.js.map": "/static/js/main.5d6e8bd9.js.map",
     "453.1407b060.chunk.js.map": "/static/js/453.1407b060.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4b9f5586.css",
-    "static/js/main.9f0a98ec.js"
+    "static/js/main.5d6e8bd9.js"
   ]
 }
