@@ -9,7 +9,7 @@ function Header()
                 <h3>👋 Hello, my name is</h3>
                 <h1>Tejas Raghuram</h1>
                 <p>
-                    Software Engineer, CS @ Northeastern University, Designer, Developer, and more!
+                    Software Engineer, CS @ UIUC, Designer, Developer, and more!
                     <br /><br />
                     Welcome to my Portfolio!
                 </p>
