@@ -1,6 +1,7 @@
 import Project from "./Project";
 import Skill from "./Skill";
 import StuVis from "./../images/StuVis.png";
+import Shark from "./../images/Shark.png";
 import IPL from "./../images/IPL.png";
 import TeChess from "./../images/TeChess.png";
 import SBCREW from "./../images/SBCREW.png";
@@ -12,9 +13,10 @@ function Body()
     return (
         <div id="body">
             <h2>About</h2>
-            <p>Hi! I’m an undergraduate student at the University of Illinois at Urbana-Champaign with a deep fascination for computer science, especially software development. My interests span across various subfields, including competitive programming, quantum computing, and website design. As a full stack developer, I’ve gained experience in a wide range of languages and frameworks, allowing me to build and contribute to diverse projects. Outside of the world of programming, I enjoy cubing, playing cricket and football, and immersing myself in video games.</p>
+            <p>Hi! I’m an undergraduate student at the University of Illinois at Urbana-Champaign with a deep fascination for computer science, especially software development. My interests span across various subfields, including data visualization, quantum computing, and website design. As a full stack developer, I’ve gained experience in a wide range of languages and frameworks, allowing me to build and contribute to diverse projects. Outside of the world of programming, I enjoy cubing, playing cricket and football, and immersing myself in video games. Check out my <a href='https://docs.google.com/document/d/1SFYqt0y2Yt1PEyDjvFphotCZDIZlNwqEeRg-1B1vBlA/edit?usp=sharing'>design portfolio</a>!</p>
             <h2>Projects</h2>
             <Project name="StuVis" image={StuVis} description="Student Data Visualization Web Application with AI Integration for the South Brunswick School District" link="https://github.com/TejasRaghuram/StuVis"/>
+            <Project name="Shark Visualizer" image={Shark} description="3D Shark Visualization with Real Time Data for CSULB Shark Lab" link="https://csulb-shark-visualizer.netlify.app"/>
             <Project name="IPL Fantasy" image={IPL} description="Web Application for Fantasy Cricket with the Indian Premier League" link="https://github.com/TejasRaghuram/IPL-Fantasy"/>
             <Project name="TeChess" image={TeChess} description="A Chess Bot Implementation of Monte Carlo Tree Search" link="https://github.com/TejasRaghuram/TeChess"/>
             <Project name="750 SBCREW" image={SBCREW} description="Landing Page Template for South Brunswick Robotics" link="https://github.com/TejasRaghuram/750SBCREW"/>
