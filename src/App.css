@@ -37,8 +37,10 @@ p {
 }
 
 .hero-sub {
+  height: 42px;
   font-size: 42px;
   margin: 0;
+  position: relative;
 }
 
 #hero-title {
@@ -53,4 +55,16 @@ p {
 
 #hero-info {
   text-align: right;
+}
+
+.hero-fade-in {
+  opacity: 1;
+  top: 0;
+  transition: 0.2s;
+}
+
+.hero-fade-out {
+  opacity: 0;
+  top: 7px;
+  transition: 0.2s;
 }
