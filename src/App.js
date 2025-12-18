@@ -1,33 +1,30 @@
 import './App.css';
-import { useState, useEffect } from 'react';
+import Navbar from './components/navbar/navbar';
+import Hero from './components/hero/hero';
+import About from './components/about/about';
+import Projects from './components/projects/projects';
+import Experience from './components/experience/experience';
+import Skills from './components/skills/skills';
+import Contact from './components/contact/contact';
+import Logo from './images/logo.png';
 
 function App() {
-  const greetings = ["Hi, I'm", "Bonjour, je m’appelle", "Привет, меня зовут", "Hallo, ich heiße", "ನಮಸ್ಕಾರ, ನನ್ನ ಹೆಸರು"];
-  const info = ["CS + Math @ UIUC", "Software Engineer", "Full Stack Web Developer", "Detail-Oriented Designer", "Quantum Enthusiast"];
-  const [heroIndex, setHeroIndex] = useState(0);
-  const [heroFade, setHeroFade] = useState(true);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setHeroFade(false);
-      setTimeout(() => {
-        setHeroIndex((prev) => (prev + 1) % greetings.length);
-        setHeroFade(true);
-      }, 200); 
-    }, 2500);
-
-    return () => clearInterval(interval);
-  }, []);
-
   return (
     <div>
-      <div id='hero'>
-        <div id='hero-text'>
-          <p id='hero-greeting' class='hero-sub'>👋 <span class={'hero-sub ' + (heroFade ? 'hero-fade-in' : 'hero-fade-out')}>{greetings[heroIndex]}</span></p>
-          <h1 id='hero-title'>Tejas Raghuram</h1>
-          <p id='hero-info' class={'hero-sub ' + (heroFade ? 'hero-fade-in' : 'hero-fade-out')}>{info[heroIndex]}</p>
-        </div>
-      </div>
+      <Navbar items={[
+        {content: <img src={Logo}/>, href: '#hero'}, 
+        {content: 'About', href: '#about'}, 
+        {content: 'Projects', href: '#projects'}, 
+        {content: 'Experience', href: '#experience'}, 
+        {content: 'Skills', href: '#skills'}, 
+        {content: 'Contact', href: '#contact'}
+      ]}/>
+      <Hero id='hero'/>
+      <About id='about'/>
+      <Projects id='projects'/>
+      <Experience id='experience'/>
+      <Skills id='skills'/>
+      <Contact id='contact'/>
     </div>
   );
 }

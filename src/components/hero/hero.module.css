@@ -1,0 +1,53 @@
+.hero {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: radial-gradient(circle, #4493c8 0%, #cccccc 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  mask-image: linear-gradient(to bottom, black 60%, transparent 100%);
+}
+
+.hero::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("../../images/noise.png");
+  background-repeat: repeat;
+  background-size: 500px;
+  opacity: 0.3;
+}
+
+.hero div {
+  width: 900px;
+  height: 240px;
+  z-index: 1;
+}
+
+.hero h1 {
+  margin: 0;
+  font-size: 96px;
+  text-align: center;
+  color: black;
+}
+
+.hero p, .hero span {
+  height: 42px;
+  font-size: 42px;
+  margin: 0;
+  position: relative;
+  color: black;
+}
+
+.in {
+  opacity: 1;
+  top: 0;
+  transition: 0.2s;
+}
+
+.out {
+  opacity: 0;
+  top: 7px;
+  transition: 0.2s;
+}

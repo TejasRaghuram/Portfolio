@@ -1,5 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+* {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: black;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Playfair Display';
   text-transform: uppercase;
@@ -8,63 +20,4 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   font-family: 'IBM Plex Sans';
-}
-
-#hero {
-  width: 100%;
-  height: 100vh;
-  position: relative;
-  background: radial-gradient(circle, #4493c8 0%, #cccccc 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#hero::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  background-image: url("./images/noise.png");
-  background-repeat: repeat;
-  background-size: 500px;
-  opacity: 0.3;
-}
-
-#hero-text {
-  width: 900px;
-  height: 240px;
-  z-index: 1;
-}
-
-.hero-sub {
-  height: 42px;
-  font-size: 42px;
-  margin: 0;
-  position: relative;
-}
-
-#hero-title {
-  margin: 0;
-  font-size: 96px;
-  text-align: center;
-}
-
-#hero-greeting {
-  text-align: left;
-}
-
-#hero-info {
-  text-align: right;
-}
-
-.hero-fade-in {
-  opacity: 1;
-  top: 0;
-  transition: 0.2s;
-}
-
-.hero-fade-out {
-  opacity: 0;
-  top: 7px;
-  transition: 0.2s;
 }
